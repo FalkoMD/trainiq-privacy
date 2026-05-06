@@ -1,4 +1,174 @@
-<!DOCTYPE html>
+🇩🇪 Deutsch
+🇬🇧 English
+Datenschutzerklärung
+Trainiq · Zuletzt aktualisiert: Mai 2026
+
+1. Überblick
+
+Trainiq ist eine iOS-App für Krafttraining und Cardio-Tracking. Deine Privatsphäre ist uns wichtig. Diese Erklärung beschreibt transparent, welche Daten die App verarbeitet und wie.
+
+Kurzfassung: Trainiq speichert deine Trainingsdaten ausschließlich lokal auf deinem Gerät. Es gibt keine Benutzerkonten, keine Werbung und kein Tracking. Anonyme Nutzungsstatistiken (welche Features genutzt werden) werden über einen eigenen Server an Amplitude in Frankfurt übermittelt — kein Personenbezug. Crash-Berichte gehen anonym an Sentry. Wenn du den KI-Coach nutzt, werden Trainingsdaten anonymisiert verarbeitet.
+
+2. Lokal gespeicherte Daten
+
+Folgende Daten werden ausschließlich auf deinem Gerät gespeichert und verlassen es nicht:
+
+Trainingsdaten (Übungen, Gewichte, Wiederholungen, Sätze)
+Workout-Pläne und persönliche Einstellungen
+Körpermaße (sofern eingetragen)
+Trainingshistorie und Statistiken
+Pausenzeiten und Timer-Einstellungen
+GPS-Routen bei Cardio-Trainings
+Diese Daten werden mit SwiftData lokal auf dem iPhone gespeichert. Ein Backup erfolgt ausschließlich über dein persönliches iCloud-Backup, sofern du dieses aktiviert hast — und liegt damit in deiner Kontrolle.
+
+3. Apple HealthKit
+
+Trainiq kann mit der Apple Gesundheits-App interagieren, um Workouts, Herzfrequenz, Kalorienverbrauch und Laufstrecken zu lesen und zu schreiben. Der Zugriff erfolgt nur mit deiner ausdrücklichen Erlaubnis.
+
+HealthKit-Daten werden ausschließlich zur Anzeige in der App verwendet
+HealthKit-Daten werden nicht an Dritte weitergegeben
+Du kannst den Zugriff jederzeit in den iPhone-Einstellungen unter Datenschutz → Gesundheit widerrufen
+4. KI-Coach (Anthropic Claude / OpenAI GPT)
+
+Trainiq bietet einen optionalen KI-Coach an, der deine Trainingsdaten analysiert und Empfehlungen gibt. Wenn du diese Funktion nutzt, werden Daten übermittelt:
+
+Was übermittelt wird: Übungsnamen, Gewichte, Wiederholungen, Satzanzahl und dein Feedback zu einzelnen Sätzen (z.B. "leicht", "schwer")
+Was nicht übermittelt wird: Dein Name, deine E-Mail-Adresse, Standortdaten oder sonstige personenbezogene Informationen
+Übertragungsweg: Die Daten laufen über einen eigenen Cloudflare Worker (Server in der EU/USA) und werden von dort an Anthropic PBC, San Francisco, USA bzw. OpenAI weitergeleitet
+Speicherung: Anthropic und OpenAI verarbeiten die Anfragen zur Beantwortung und speichern API-Anfragen standardmäßig nicht dauerhaft. Weitere Informationen: anthropic.com/privacy und openai.com/policies/privacy-policy
+Die Nutzung des KI-Coaches ist vollständig optional. Die App ist ohne diese Funktion vollständig nutzbar.
+
+5. Anonyme Nutzungsstatistik (Amplitude)
+
+Trainiq nutzt Amplitude Analytics (EU-Region, Frankfurt) um anonym zu erfassen welche Funktionen wie oft genutzt werden. Das hilft uns, die App zu verbessern. Die Übermittlung erfolgt über einen eigenen Cloudflare Worker, der die Daten an Amplitude weiterleitet.
+
+Was übermittelt wird: Eine zufällige Geräte-ID (UUID, generiert beim ersten Start), Event-Namen wie "workout_completed" oder "music_push_started", numerische Eigenschaften wie Trainings-Dauer, Anzahl Sätze, Trainings-Volumen
+Was nicht übermittelt wird: Dein Name, deine E-Mail, Übungsnamen, konkrete Gewichte, Plan-Inhalte, Coach-Fragen, Standortdaten, Apple-IDs, IDFA oder andere Geräte-Kennzeichen
+Speicherort: Amplitude EU-Server (Frankfurt, Deutschland)
+Deaktivieren: Du kannst die Statistik-Erfassung jederzeit in den Einstellungen unter "Datenschutz" deaktivieren
+6. Crash- und Fehlerberichte (Sentry)
+
+Trainiq nutzt Sentry (EU-Region) zur Erfassung von Abstürzen und Fehlern. Diese Daten helfen uns, die App stabil zu halten.
+
+Was übermittelt wird: Stack-Traces bei Abstürzen, App-Version, iOS-Version, anonyme Geräte-Klasse (z.B. "iPhone 15"), Sprache
+Was nicht übermittelt wird: Trainingsdaten, persönliche Inhalte, Standort, Geräte-ID
+Speicherort: Sentry EU-Server (Frankfurt, Deutschland)
+7. GPS und Standortdaten
+
+Beim Aufzeichnen von Cardio-Trainings (Laufen, Radfahren etc.) kann die App optional GPS-Daten nutzen, um Strecken auf einer Karte anzuzeigen. GPS-Daten werden ausschließlich lokal auf dem Gerät gespeichert und nicht übertragen.
+
+8. Keine Werbung, kein Tracking
+
+Trainiq enthält keinerlei Werbung. Es werden keine Marketing-SDKs und keine Tracking-Technologien eingesetzt. Es wird kein Gerätekennzeichen (IDFA oder ähnliches) erhoben. Anonyme Nutzungsstatistiken (siehe Abschnitt 5) sind ausdrücklich kein Tracking im Sinne der Apple-Definition — die anonyme UUID wird nicht mit Drittanbietern geteilt oder mit anderen Apps verknüpft.
+
+9. Drittanbieter-Dienste
+
+Trainiq nutzt folgende Drittanbieter-Dienste, jeweils ausschließlich für die genannten Zwecke:
+
+Cloudflare — Worker-Proxy für KI-Coach und Analytics-Weiterleitung
+Anthropic / OpenAI — KI-Coach-Antworten
+Amplitude — anonyme Nutzungsstatistik (EU-Server)
+Sentry — anonyme Crash-Berichte (EU-Server)
+Alle anderen Funktionen kommen ohne externe Verbindungen aus.
+
+10. Kinder
+
+Trainiq richtet sich nicht gezielt an Kinder unter 13 Jahren. Wir erheben wissentlich keine Daten von Kindern.
+
+11. Änderungen dieser Erklärung
+
+Bei wesentlichen Änderungen wird diese Seite aktualisiert. Das Datum der letzten Aktualisierung ist oben angegeben.
+
+12. Kontakt
+
+Bei Fragen zum Datenschutz erreichst du uns unter:
+Elbe Studio
+E-Mail: elbstudio.app@gmail.com
+
+Privacy Policy
+Trainiq · Last updated: May 2026
+
+1. Overview
+
+Trainiq is an iOS app for strength training and cardio tracking. Your privacy matters to us. This policy transparently describes what data the app processes and how.
+
+Summary: Trainiq stores your training data exclusively on your device. There are no user accounts, no advertising, and no tracking. Anonymous usage statistics (which features are used) are transmitted via our own server to Amplitude in Frankfurt — no personal connection. Crash reports go anonymously to Sentry. When you use the AI Coach, training data is processed anonymously.
+
+2. Locally Stored Data
+
+The following data is stored exclusively on your device and never leaves it:
+
+Training data (exercises, weights, repetitions, sets)
+Workout plans and personal settings
+Body measurements (if entered)
+Training history and statistics
+Rest times and timer settings
+GPS routes for cardio workouts
+This data is stored locally on the iPhone using SwiftData. Backup only occurs through your personal iCloud backup if you have enabled it — entirely under your control.
+
+3. Apple HealthKit
+
+Trainiq can interact with the Apple Health app to read and write workouts, heart rate, calories burned, and running routes. Access only occurs with your explicit permission.
+
+HealthKit data is used solely for display within the app
+HealthKit data is not shared with third parties
+You can revoke access at any time in iPhone Settings → Privacy → Health
+4. AI Coach (Anthropic Claude / OpenAI GPT)
+
+Trainiq offers an optional AI Coach that analyzes your training data and provides recommendations. When you use this feature, data is transmitted:
+
+What is transmitted: Exercise names, weights, repetitions, set counts, and your per-set feedback (e.g. "easy", "hard")
+What is not transmitted: Your name, email address, location data, or any other personally identifiable information
+Transmission path: Data is routed through a dedicated Cloudflare Worker (servers in EU/USA) and forwarded to Anthropic PBC, San Francisco, USA, or OpenAI
+Storage: Anthropic and OpenAI process requests to generate responses and do not permanently store API requests by default. More information: anthropic.com/privacy and openai.com/policies/privacy-policy
+Use of the AI Coach is entirely optional. The app is fully functional without this feature.
+
+5. Anonymous Usage Analytics (Amplitude)
+
+Trainiq uses Amplitude Analytics (EU region, Frankfurt) to anonymously track which features are used and how often. This helps us improve the app. Transmission goes through a dedicated Cloudflare Worker that forwards the data to Amplitude.
+
+What is transmitted: A random device ID (UUID, generated on first launch), event names like "workout_completed" or "music_push_started", numeric properties such as training duration, set counts, training volume
+What is not transmitted: Your name, email, exercise names, specific weights, plan contents, coach questions, location data, Apple IDs, IDFA, or other device identifiers
+Storage location: Amplitude EU servers (Frankfurt, Germany)
+Disabling: You can disable usage analytics at any time in Settings → Privacy
+6. Crash and Error Reports (Sentry)
+
+Trainiq uses Sentry (EU region) to capture crashes and errors. This data helps us keep the app stable.
+
+What is transmitted: Crash stack traces, app version, iOS version, anonymous device class (e.g. "iPhone 15"), language
+What is not transmitted: Training data, personal content, location, device ID
+Storage location: Sentry EU servers (Frankfurt, Germany)
+7. GPS and Location Data
+
+When recording cardio workouts (running, cycling, etc.), the app can optionally use GPS data to display routes on a map. GPS data is stored exclusively on the device and is not transmitted.
+
+8. No Advertising, No Tracking
+
+Trainiq contains no advertising. No marketing SDKs or tracking technologies are used. No device identifiers (IDFA or similar) are collected. Anonymous usage statistics (see Section 5) are explicitly not tracking under Apple's definition — the anonymous UUID is not shared with third parties or linked to other apps.
+
+9. Third-Party Services
+
+Trainiq uses the following third-party services, each strictly for the stated purpose:
+
+Cloudflare — Worker proxy for AI Coach and analytics forwarding
+Anthropic / OpenAI — AI Coach responses
+Amplitude — anonymous usage analytics (EU servers)
+Sentry — anonymous crash reports (EU servers)
+All other features work without external connections.
+
+10. Children
+
+Trainiq is not directed at children under 13. We do not knowingly collect data from children.
+
+11. Changes to This Policy
+
+This page will be updated for material changes. The date of the last update is shown above.
+
+12. Contact
+
+For privacy-related questions, contact us at:
+Elbe Studio
+Email: elbstudio.app@gmail.com<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
